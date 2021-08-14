@@ -1,4 +1,13 @@
+@font-face {
+	font-family: 'custom'; 
+	src: local('custom'),
+	url(./custom.otf); 
+
+}
+  
+}
 body {
+  font-family: "custom", "Arial", sans-serif;
   background-color: #ffffff;
   color: #131313;
 }
