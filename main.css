@@ -1,15 +1,25 @@
 @font-face {
-	font-family: 'custom'; 
-	src: local('custom'),
-	url(./custom.otf); 
+  font-family: NormalidadExtended-ExtMed;
+  src: url("./NormalidadExtended-ExtMed.otf") format("opentype");
+}
 
-}
-  
-}
 body {
-  font-family: "custom", "Arial", sans-serif;
+  font-family: "NormalidadExtended-ExtMed", "Arial", sans-serif;
   background-color: #ffffff;
   color: #131313;
+}
+
+ul {
+  list-style-position: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 div {
