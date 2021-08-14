@@ -9,6 +9,10 @@ body {
   color: #131313;
 }
 
+a {
+  color: #131313;
+}
+
 ul {
   list-style-position: none;
   margin: 0;
