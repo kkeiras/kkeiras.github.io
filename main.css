@@ -1,6 +1,6 @@
 body {
-  background-color: #131313;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #131313;
 }
 
 div {
@@ -13,7 +13,6 @@ img {
 }
 
 .wrapper {
-  background-color: aquamarine;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -27,7 +26,7 @@ img {
 }
 
 .content {
-  background-color: burlywood;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 30%;
