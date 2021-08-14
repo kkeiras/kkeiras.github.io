@@ -13,7 +13,12 @@
     </div>
     <script>
       function changeColor() {
-        document.body.style.background = "#f3f3f3";
+        let status = 0;
+        if (status == 0) {
+          document.body.style.background = "#f3f3f3";
+        } else {
+          document.body.style.background = "red";
+        }
       }
     </script>
   </body>
